@@ -1,0 +1,44 @@
+aside {
+  position: fixed;
+  left: 1rem;
+  top: 1rem;
+  padding: 1rem;
+  background-color: red;
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7); /* Adicionar sombra */
+}
+
+main {
+  background-color: blue;
+  text-align: center;
+  padding: 1rem;
+  max-width: 22rem;
+  border-radius: 1rem;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7); /* Adicionar sombra */
+}
+
+main h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+main menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+main menu div a {
+  background-color: red;
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7); /* Adicionar sombra */
+  transition: background-color 0.3s ease; /* Adicionar uma transição suave */
+}
+
+main menu div a:hover {
+  background-color: darkred; /* Alterar cor de fundo ao passar o mouse */
+}

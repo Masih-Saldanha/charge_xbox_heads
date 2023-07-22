@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'charge_xbox_heads';
+  twitterLink = `https://twitter.com/intent/tweet?text=Teste!`;
 }

@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+@import "/src/styles/reset.css";
+
+body {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Arial', sans-serif; /* Definir uma fonte padrão */
+}
+
+* {
+  color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Evitar problemas com padding e bordas */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
