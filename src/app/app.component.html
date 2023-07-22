@@ -1,4 +1,11 @@
-<aside>Contribua</aside>
+<aside>
+  <button class="btn btn-primary" (click)="toggleModal()">Contribua</button>
+</aside>
+
+<app-modal-livepix
+  *ngIf="showModal"
+  (close)="toggleModal()"
+></app-modal-livepix>
 
 <main>
   <h1>
@@ -7,7 +14,13 @@
   </h1>
   <menu>
     <div>
-      <a [href]="twitterLink" target="_blank">Cobre</a>
+      <a
+        type="button"
+        class="btn btn-primary"
+        [href]="twitterLink"
+        target="_blank"
+        >Cobre</a
+      >
     </div>
   </menu>
 </main>

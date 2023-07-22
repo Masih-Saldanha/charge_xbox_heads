@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   twitterLink = `https://twitter.com/intent/tweet?text=Teste!`;
+
+  showModal = false;
+  toggleModal(): void {
+    this.showModal = !this.showModal;
+  }
 }

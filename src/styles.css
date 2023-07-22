@@ -8,11 +8,10 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  font-family: 'Arial', sans-serif; /* Definir uma fonte padrão */
+  font-family: "Arial", sans-serif; /* Definir uma fonte padrão */
 }
 
 * {
-  color: white;
   margin: 0;
   padding: 0;
   box-sizing: border-box; /* Evitar problemas com padding e bordas */
