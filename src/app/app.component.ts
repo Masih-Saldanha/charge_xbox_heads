@@ -6,7 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  twitterLink = `https://twitter.com/intent/tweet?text=Teste!`;
+  twitterText = "Hello @BondSarah_Bond @XboxP3! %23SaveLittleMonster Appeal from Brazil: Xbox Series S saw a sudden price hike due to high taxes, risking your image and community support. Please reconsider. We await your response. Sincerely, BONDE DO XBOX community at bondedoxbox.vercel.app!";
+  twitterLink = `https://twitter.com/intent/tweet?text=${this.twitterText}!`;
 
   showModal = false;
   toggleModal(): void {
